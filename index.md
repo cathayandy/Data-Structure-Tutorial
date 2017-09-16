@@ -14,7 +14,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 
 使用连续的存储空间存储一系列元素。
 
-* 计算机内存原生使用的数据结构
+* 计算机内存原生使用的数据结构
 * 通过空间的连续性保证顺序关系
 * 按索引查找
 * 增加 / 删除的开销[比较大](https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/ListArray.html#listarray)
@@ -33,7 +33,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 又叫哈希表。使用连续的空间离散地存储一系列元素，这种结构没有顺序关系。
 
 * 按索引查找
-* 解决数组索引范围有限的问题
+* 解决数组索引范围有限的问题
 * 核心是映射函数
 * [冲突的解决](https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/OpenHash.html)
 
@@ -42,7 +42,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 三种操作：
 * 取栈顶元素的值
 * 加入元素至栈顶
-* 把栈顶的元素扔出来
+* 把栈顶的元素扔出来
 
 特性：
 * 可基于链表 / 数组实现
@@ -55,7 +55,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 三种操作：
 * 取队列首元素的值
 * 加入元素至队列尾
-* 把队列首的元素扔出来
+* 把队列首的元素扔出来
 
 特性：
 * 可基于链表 / 数组实现
@@ -84,7 +84,7 @@ https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 每个节点最多有两个孩子的树。
 
 * 完全二叉树：从上到下从左到右排满的二叉树
-* 满二叉树：每个节点，要么没有孩子，要么有两个孩子
+* 满二叉树：每个节点，要么没有孩子，要么有两个孩子
 * 完全满二叉树
 * 高度为h的节点至多有2^h个
 * 非二叉树转换为二叉树的方法
